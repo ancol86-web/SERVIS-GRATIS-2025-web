@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.background-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo-bso {
+  width: 100px;
+  animation: fadeDown 2s ease-out;
+  margin-bottom: 10px;
+}
+
+@keyframes fadeDown {
+  from {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.container {
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  flex: 1 1 300px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.foto-kecil {
+  width: 300px;
+  margin-top: 10px;
+  display: block;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+blockquote, p strong {
+  background: #fff;
+  padding: 10px;
+  margin: 10px 0;
+  display: block;
+  border-left: 4px solid #007BFF;
+}
